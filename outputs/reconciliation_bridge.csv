@@ -1,0 +1,7 @@
+Step,Count,Change,Reason
+Naive count,30,0,All Diwali send attempts in October for merchant 501
+Eligibility filter,26,-4,Excluded campaign 9004 because it was awaiting approval
+Retry family 9001-9003,10,-3,Counted each customer once across the retry chain
+Standalone campaign 9101,7,0,Kept all 7 send events because repeated customers are legitimate within a standalone campaign
+Retry family 9201-9202,5,-1,Counted each customer once across the retry chain
+Final target_base,22,0,Finance target reproduced
